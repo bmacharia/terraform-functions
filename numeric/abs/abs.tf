@@ -7,14 +7,14 @@ locals {
   z = -100
 }
 
-output "x" {
+output "abs1" {
   value = abs(local.z)
 }
 
-output "y" {
+output "abs2" {
   value = abs(local.x)
 }
 
- output "z" {
+ output "abs3" {
   value = abs(local.y)
  }

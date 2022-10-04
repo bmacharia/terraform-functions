@@ -6,19 +6,19 @@ If the given string contains any non-digit characters or digit characters that a
 
 */
 locals {
-  par1 = parseint("100", 10)
-  par2 = parseint("123", 16)
-  par3 = parseint("aA", 36)
+  par1 = ["100", 10]
+  par2 = ["123", 16]
+  par3 = ["aA", 36]
 }
 
 output "par1" {
-  value = "${local.par1}"
+  value = parseint(local.par1[0], local.par1[1])
 }
 
 output "par2" {
-  value = "${local.par2}"
+  value = parseint(local.par2[0], local.par2[1])
 }
 
 output "par3" {
-  value = "${local.par3}"
+  value = parseint(local.par3[0], local.par3[1])
 }

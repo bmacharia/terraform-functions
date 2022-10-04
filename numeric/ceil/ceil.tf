@@ -2,19 +2,19 @@
 */
 
 locals {
-  var1 = ceil(1.1)
-  var2 = ceil(1.5)
-  var3 = ceil(1.9)
+  var1 = 1.1
+  var2 = 2.5
+  var3 = 3.9
 }
 
-output "var1" {
-  value = local.var1
+output "ceil1" {
+  value = ceil(local.var1)
 }
 
-output "var2" {
-  value = local.var2
+output "ceil2" {
+  value = ceil(local.var2)
 }
 
-output "var3" {
-  value = local.var3
+output "ceil3" {
+  value = ceil(local.var3)
 }
