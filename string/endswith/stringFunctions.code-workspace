@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../chomp"
+		},
+		{
+			"path": "../format"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
