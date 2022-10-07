@@ -1,4 +1,4 @@
-# timeadd adds a duration to a timestamp, returning a new timestamp.
+# timeadd adds a duration to a timestamp, returning a new timestamp
 
 locals {
   timestamp = "2022-10-22T00:00:00Z"

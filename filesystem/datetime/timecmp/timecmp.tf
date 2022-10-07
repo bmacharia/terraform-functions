@@ -1,4 +1,4 @@
-/* timecmp compares two timestamps and returns a number that represents the ordering of the instants      those timestamps represent.
+/* timecmp compares two timestamps and returns a number that represents the ordering of the instants      those timestamps represent
 */
 
 locals {
