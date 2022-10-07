@@ -1,4 +1,4 @@
-# formatdate converts a timestamp into a different time format.
+#formatdate converts a timestamp into a different time format.
 
 locals {
   spec = "DD MMM YYYY hh:mm ZZZ"
